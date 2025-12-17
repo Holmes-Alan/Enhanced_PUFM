@@ -1,2 +1,3 @@
-# PUFM
-Efficient Point cloud Upsampling via Flow matching
+# PUFM++
+Efficient Point cloud Upsampling via Enhanced Flow matching
+
