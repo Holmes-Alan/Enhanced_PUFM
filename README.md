@@ -58,7 +58,9 @@ python prepare_data.py --input_pts_num 2048 --R 4 --mesh_dir mesh_dir --save_dir
 For more information, please refer to [ [Grad-PU](https://github.com/yunhe20/Grad-PU) ]
 
 ## Quick Start
-We have provided the pretrained models in this [[link](https://drive.google.com/file/d/1vjqawPpqCArqulmBK2kcdeeMQf_P-Bnk/view?usp=sharing)], so you can directly use them to reproduce the results.
+We have provided a Google Colab file (PUFM++_test.ipynb) for quick demonstration.
+
+We provided the pretrained models in this [[link](https://drive.google.com/file/d/1vjqawPpqCArqulmBK2kcdeeMQf_P-Bnk/view?usp=sharing)], so you can directly use them to reproduce the results.
 
 * PU-GAN
 ```
@@ -107,6 +109,7 @@ If you find our project is useful, please consider citing us:
     year      = {2025}
 }
 ```
+
 
 
 
