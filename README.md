@@ -6,7 +6,7 @@ PUFM++: Point Cloud Upsampling via Enhanced Flow Matching
 
 This is the official PyTorch implementation of our paper "PUFM++: Point Cloud Upsampling via Enhanced Flow Matching".
 
-<img src="./figure/network.jpg">
+<img src="./figure/overall_fm.jpg">
 
 ## Abstract
 
@@ -98,4 +98,5 @@ If you find our project is useful, please consider citing us:
     year      = {2025}
 }
 ```
+
 
