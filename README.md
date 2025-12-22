@@ -8,6 +8,8 @@ This is the official PyTorch implementation of our paper "PUFM++: Point Cloud Up
 
 <img src="./figure/overall_fm.jpg">
 
+It is an extension work to our previous AAAI conference paper, please refer to [[PUFM](https://github.com/Holmes-Alan/PUFM)]
+
 ## Abstract
 
 Recent advances in generative modeling have demonstrated strong promise for high-quality point cloud upsampling. In this work, we present PUFM++, an enhanced flow-matching framework for reconstructing dense and accurate point clouds from sparse, noisy, and partial observations. PUFM++ improves flow matching along three key axes: (i)~geometric fidelity, (ii)~robustness to imperfect input, and (iii)~consistency with downstream surface-based tasks. We introduce a two-stage flow-matching strategy that first learns a direct, straight-path flow from sparse inputs to dense targets, and then refines it using noise-perturbed samples to approximate the terminal marginal distribution better. To accelerate and stabilize inference, we propose a data-driven adaptive time scheduler that improves sampling efficiency based on interpolation behavior. We further impose on-manifold constraints during sampling to ensure that generated points remain aligned with the underlying surface. Finally, we incorporate a recurrent interface network (RIN) to strengthen hierarchical feature interactions and boost reconstruction quality. Extensive experiments on synthetic benchmarks and real-world scans show that PUFM++ sets a new state of the art in point cloud upsampling, delivering superior visual fidelity and quantitative accuracy across a wide range of tasks.
@@ -98,6 +100,7 @@ If you find our project is useful, please consider citing us:
     year      = {2025}
 }
 ```
+
 
 
 
