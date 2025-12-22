@@ -8,7 +8,7 @@ This is the official PyTorch implementation of our paper "PUFM++: Point Cloud Up
 
 <img src="./figure/overall_fm.jpg">
 
-It is an extension work to our previous AAAI conference paper, please refer to [[PUFM](https://github.com/Holmes-Alan/PUFM)]
+It is an extension work to our previous AAAI conference paper, please refer to [PUFM](https://github.com/Holmes-Alan/PUFM)
 
 ## Abstract
 
@@ -93,7 +93,7 @@ We also visualize the comparisons as follows.
 
 ## Acknowledgments
 
-Our code is built upon the following repositories: [PU-GCN](https://github.com/guochengqian/PU-GCN), [PU-GAN](https://github.com/liruihui/PU-GAN) and [Grad-PU]([https://github.com/CVMI-Lab/PAConv](https://github.com/yunhe20/Grad-PU)). Thanks for their great work.
+Our code is built upon the following repositories: [PUFM](https://github.com/Holmes-Alan/PUFM), [PU-GCN](https://github.com/guochengqian/PU-GCN), [PU-GAN](https://github.com/liruihui/PU-GAN) and [Grad-PU]([https://github.com/CVMI-Lab/PAConv](https://github.com/yunhe20/Grad-PU)). Thanks for their great work.
 
 ## Citation
 
@@ -107,6 +107,7 @@ If you find our project is useful, please consider citing us:
     year      = {2025}
 }
 ```
+
 
 
 
