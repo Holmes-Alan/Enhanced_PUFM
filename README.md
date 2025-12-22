@@ -92,11 +92,12 @@ If you find our project is useful, please consider citing us:
 
 ```
 @InProceedings{ZSLiu_2025,
-    author    = {Zhi-Song Liu and Chenhang He and Lei Li},
-    title     = {Efficient Point Clouds Upsampling via Flow Matching},
+    author    = {Zhi-Song Liu and Chenhang He and Roland Maier and Andreas Rupp},
+    title     = {PUFM++:PointCloudUpsamplingviaEnhancedFlow Matching},
     booktitle = {arXiv:2501.15286},
     year      = {2025}
 }
 ```
+
 
 
