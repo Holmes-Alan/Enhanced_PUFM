@@ -46,7 +46,7 @@ python setup.py install
 ```
 
 ## Data Preparation
-Please download [ [PU1K](https://github.com/guochengqian/PU-GCN) ] and [ [PUGAN](https://github.com/liruihui/PU-GAN) ].
+Please download [PU1K](https://github.com/guochengqian/PU-GCN) and [PUGAN](https://github.com/liruihui/PU-GAN).
 ```
 # For generating test data, please see **dataset/prepare_data.py**
 cd dataset
@@ -63,15 +63,13 @@ We have provided the pretrained models in this [[link](https://drive.google.com/
 * PU-GAN
 ```
 # 4X on one single point cloud
-python test_pufm.py --model pufm --test_input_path example/camel.xyz --up_rate 4
-# 11X, upsampled point clouds
-python test_pufm_arbitrary.py --model pufm_w_attn --dataset pugan --test_input_path /data/PU-GAN/input_2048_4X/input_2048/ --up_rate 11
-# 4X on PUGAN evaluation, upsampled point clouds using PUFM
-python eval_pufm.py --model pufm --dataset pugan --test_input_path /data/PU-GAN/input_2048_4X/input_2048/ --up_rate 4
-# 4X on PUGAN evaluation, upsampled point clouds using PUFM_w_attn
-python eval_pufm.py --model pufm_w_attn --dataset pugan --test_input_path /data/PU-GAN/input_2048_4X/input_2048/ --up_rate 4
-# 16X on PUGAN evaluation, upsampled point clouds
-python eval_pufm.py --model pufm_w_attn --dataset pugan --test_input_path /data/PU-GAN/input_2048_4X/input_2048/ --up_rate 16
+python demo_epufm.py --test_input_path example/small_pc --up_rate 4
+# 4X on large-scale lidar point cloud
+python eval_epufm_large_pc.py --dataset pugan --test_input_path example/large_pc --up_rate 4
+# 4X on PUGAN evaluation, upsampled point clouds using PUFM++
+python eval_epufm.py --dataset pugan --test_input_path /data/PU-GAN/input_2048_4X/input_2048/ --up_rate 4
+# 4X on PUGAN evaluation, upsampled point clouds using PUFM++
+python eval_epufm.py --dataset pugan --test_input_path /data/PU-GAN/input_2048_4X/input_2048/ --up_rate 4
 ```
 
 ## Training
@@ -81,7 +79,9 @@ If you want to train our model yourself, you can try the following commands.
 * PU1K
 
 ```
-python train_pufm.py
+python train_pufm_s1.py
+python train_pufm_s2.py
+python train_pufm_s3.py
 ```
 
 ## Performance
@@ -107,6 +107,7 @@ If you find our project is useful, please consider citing us:
     year      = {2025}
 }
 ```
+
 
 
 
