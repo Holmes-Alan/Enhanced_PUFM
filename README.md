@@ -84,6 +84,13 @@ If you want to train our model yourself, you can try the following commands.
 python train_pufm.py
 ```
 
+## Performance
+We compare with several approaches and report the quantitative results.
+<img src="./figure/table_sota.jpg">
+
+We also visualize the comparisons as follows.
+<img src="./figure/figure_sota.jpg">
+
 ## Acknowledgments
 
 Our code is built upon the following repositories: [PU-GCN](https://github.com/guochengqian/PU-GCN), [PU-GAN](https://github.com/liruihui/PU-GAN) and [Grad-PU]([https://github.com/CVMI-Lab/PAConv](https://github.com/yunhe20/Grad-PU)). Thanks for their great work.
@@ -100,6 +107,7 @@ If you find our project is useful, please consider citing us:
     year      = {2025}
 }
 ```
+
 
 
 
